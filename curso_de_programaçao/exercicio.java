@@ -26,6 +26,8 @@ public class exercicio {
 
         System.out.printf("Measue with eight decimal places ;  %.2f %n", measure); 
 
+        System.out.printf(" %d years old, code %d and  gender : %s ", age, code , gender); 
+
 
     }
 }
