@@ -28,7 +28,8 @@ public class funcoes {
         B = Math.abs(z);
 
         System.out.println(" O valor absuloto é de " + y + " = " + A );
-        System.out.println(" O valor absuloto é de " + z + " = " + B );
+        System.out.println(" O valor absuloto é de " + z + " == " + B );
     }
     
+
 }
