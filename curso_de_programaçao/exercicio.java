@@ -24,6 +24,8 @@ public class exercicio {
         Locale.setDefault(Locale.US);
         System.out.printf("Measue with eight decimal places ;  %.2f %n", measure); 
 
+        System.out.printf("Measue with eight decimal places ;  %.2f %n", measure); 
+
 
     }
 }
