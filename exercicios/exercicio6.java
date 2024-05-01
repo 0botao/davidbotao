@@ -29,7 +29,7 @@ public class exercicio6 {
         System.out.println(" área do círculo de raio " + (Math.pow(a, 2)) * 3.14159);
         System.out.println("área do trapézio é " + ((a+b)* c/2)) ;
         System.out.println(" área do quadrado é " + Math.pow(b,2));
-        System.out.println(" a área do retangulo " + b * c);
+        System.out.println(" a área do retangulo " + b * c + 1);
 
 
 
