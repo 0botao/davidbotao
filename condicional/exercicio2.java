@@ -20,5 +20,4 @@ public class exercicio2 {
             System.out.println(" o número é impar");
         }
     }
-
 }

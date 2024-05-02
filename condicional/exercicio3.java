@@ -18,14 +18,13 @@ public class exercicio3 {
             } else {
                 System.out.println(" não são multiplos"); 
             }
-        } else {
-            if (x % y == 0) {
+        } else if (x % y == 0) {
                 System.out.println(" São multiplos"); 
-            } else {
-                System.out.println(" não são multiplos");
-            }
-            
+        } else {
+            System.out.println(" não são multiplos");
         }
+            
     }
-    
 }
+    
+
