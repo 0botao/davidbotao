@@ -1,0 +1,74 @@
+Tranquilo, entendi! Vamos abordar cada parte do Módulo 2 de forma individual. Começando com:
+
+**1. Tipos de Dados Primitivos**
+
+Em Java, os tipos de dados primitivos são a base para representar os diferentes tipos de informações que um programa pode manipular. 
+Pense neles como os tijolos básicos para construir seus programas.
+
+**Números Inteiros:**
+
+* **`byte`:**
+    - O menor tipo inteiro, ocupando apenas 8 bits de memória.
+    - Pode armazenar valores de -128 a 127.
+    - Útil para economizar memória quando você sabe que os valores serão pequenos e dentro desse intervalo.
+    - Exemplo: `byte idade = 25;`
+
+* **`short`:**
+    - Um pouco maior que o `byte`, ocupando 16 bits.
+    - Armazena valores de -32.768 a 32.767.
+    - Exemplo: `short anoNascimento = 1990;`
+
+* **`int`:**
+    - O tipo inteiro mais comum em Java, ocupando 32 bits.
+    - Armazena valores de -2.147.483.648 a 2.147.483.647.
+    - Use-o para a maioria dos casos em que você precisa de números inteiros.
+    - Exemplo: `int quantidadeProdutos = 100;`
+
+* **`long`:**
+    - O maior tipo inteiro, ocupando 64 bits.
+    - Armazena valores gigantescos, de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
+    - Use-o quando precisar de um intervalo numérico realmente grande.
+    - Exemplo: `long populacaoMundial = 7800000000L;` (Note o 'L' no final para indicar que é um valor `long`)
+
+**Números Decimais:**
+
+* **`float`:**
+    - Representa números com casas decimais, mas com precisão limitada.
+    - Ocupa 32 bits de memória.
+    - Use com cautela em cálculos financeiros, pois a precisão limitada pode levar a erros de arredondamento.
+    - Exemplo: `float pi = 3.14f;` (Note o 'f' no final para indicar que é um valor `float`)
+
+* **`double`:**
+    - O tipo decimal mais comum em Java, com maior precisão que o `float`.
+    - Ocupa 64 bits de memória.
+    - Ideal para cálculos científicos, valores monetários e outros casos em que a precisão é importante.
+    - Exemplo: `double saldoConta = 1500.50;`
+
+**Valores Lógicos:**
+
+* **`boolean`:**
+    - Representa apenas dois valores: `true` (verdadeiro) ou `false` (falso).
+    - Essencial para expressar condições e tomar decisões em seus programas.
+    - Exemplo: `boolean usuarioLogado = true;`
+
+**Caracteres:**
+
+* **`char`:**
+    - Representa um único caractere Unicode (letras, números, símbolos, etc.).
+    - Use aspas simples (' ') para definir um valor `char`.
+    - Exemplo: `char letraInicial = 'J';`
+
+**Exemplo Completo:**
+
+```java
+byte idade = 30;
+short ano = 2023;
+int numeroConta = 123456;
+long cpf = 98765432109L;
+float preco = 19.99f;
+double salario = 3500.85;
+boolean ativo = true;
+char grupo = 'A';
+```
+
+Se quiser avançar para o próximo tópico (Operadores), me avise!
